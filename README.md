@@ -68,10 +68,8 @@ Anta att du har ett formulär där man lägger till en produkt med:
 
 ```js
 // Anta att du hämtar inputelementen så här:
-const nameInput = document.getElementById("productName");
-const priceInput = document.getElementById("price");
-
-Extra förklaring: du har värdena hårdkodade i din TS och låtsats att du hämtat dem från HTML, eller så kan du vara ambitiös och köra "den riktiga vägen".
+const nameInput = document.getElementById("product-name");
+const priceInput = document.getElementById("product-price");
 // 👉 Uppgift:
 ```
 
