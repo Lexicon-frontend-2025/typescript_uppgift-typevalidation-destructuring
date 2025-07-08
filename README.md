@@ -55,7 +55,7 @@ const user = {
   * Namn är tomt
   * Åldern inte är giltig
 
-💡 *Tips:* Använd `trim()` och `Number.isInteger()` för extra noggrann validering.
+💡 *Tips:* Använd `trim()` och `parseFloat() / parseInt()` för extra noggrann validering.
 
 ---
 
